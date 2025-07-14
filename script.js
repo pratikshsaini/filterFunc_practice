@@ -5,3 +5,11 @@ let evenArr = arr.filter((x) => {
 console.log(evenArr);
 
 // ...............................................
+
+let values = [0 , "hello", false, 42, "", null]
+let truthy = values.filter(Boolean)
+console.log(truthy);
+
+// ...............................................
+
+
