@@ -32,3 +32,10 @@ console.log(adult2);
 
 // ...............................................
 
+let words = ["car", "airplane", "cat", "motorcycle"];
+let letter5 = words.filter((x) => {
+  return x.length > 5;
+});
+console.log(letter5);
+
+// ...............................................
